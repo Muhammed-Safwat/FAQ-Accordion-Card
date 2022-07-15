@@ -20,11 +20,11 @@ body{
         display:flex;
         border-radius: 25px;
         overflow: hidden;
-        transform:translateY(25%);
-        -webkit-transform:translateY(25%);
-        -moz-transform:translateY(25%);
-        -ms-transform:translateY(25%);
-        -o-transform:translateY(25%);
+        transform:translateY(18%);
+        -webkit-transform:translateY(18%);
+        -moz-transform:translateY(18%);
+        -ms-transform:translateY(18%);
+        -o-transform:translateY(18%);
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
         -ms-border-radius: 25px;
@@ -51,7 +51,7 @@ right: -20px;
 .boxPhoto{
     width:200px;
     z-index: 4;
-    top: 50%;
+    top: 47%;
     left: calc(calc(100% - 1080px) / 2);
 }
 .mainPhoto{
