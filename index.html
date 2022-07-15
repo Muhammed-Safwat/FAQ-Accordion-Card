@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>FAQ Accordion Card</title>
+</head>
+<body>
+    <div class="app" >
+        <img class = "boxPhoto" src="images/illustration-box-desktop.svg" alt="">
+    <div class="container">
+        
+        <div class = "img">
+        <img class= "pattern" src="images/bg-pattern-desktop.svg" alt="">
+        <img class= "patternMobile" src="images/bg-pattern-mobile.svg" alt="" >
+        <img class = "mainPhoto" src="images/illustration-woman-online-desktop.svg" alt="">
+        <img class="illustrationMobile" src="images/illustration-woman-online-mobile.svg" alt="" >
+
+        </div>
+        <div class="faq">
+            <h1>FQA</h1>
+            <div class="accordion close" >
+            <div class="header" >
+                    <h4 onclick ="showText(event)">How many team members can I invite? </h4>
+                    <img src="images/icon-arrow-down.svg" alt="arrow 0down">
+            </div>
+            <div class="body">
+                <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+            </div>
+        </div>
+        <div class="accordion close"  >
+        <div class="header">
+            <h4 onclick ="showText(event)">What is the maximum file upload size?</h4>
+            <img src="images/icon-arrow-down.svg" alt="arrow down">
+        </div>
+        <div class="body">
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        </div>
+        <div class="accordion close"  >
+        <div class="header" >
+                <h4 onclick ="showText(event)">How do i reset my password?</h4>
+                <img src="images/icon-arrow-down.svg" alt="arrow down">
+        </div>
+        <div class="body">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+        </div>
+        </div>
+        <div class="accordion close"  >
+        <div class="header" >
+                <h4 onclick ="showText(event)">Can i cancel my subscription?</h4>
+                <img src="images/icon-arrow-down.svg" alt="arrow down">
+        </div>
+        <div class="body">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+        </div>
+        <div class="accordion close"  >
+        <div class="header "  >
+                <h4 onclick ="showText(event)">Do you provide additional support?</h4>
+                <img src="images/icon-arrow-down.svg" alt="arrow down">
+        </div>
+        <div class="body">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
